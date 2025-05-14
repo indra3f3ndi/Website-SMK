@@ -1,0 +1,9 @@
+body {
+    background-image: url(../img/gambar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    
+}

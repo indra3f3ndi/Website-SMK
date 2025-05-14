@@ -1,0 +1,68 @@
+*::selection {
+  background-color: #f2cf30;
+}
+
+.cust-nav {
+  background-color: #3a3132;
+}
+
+.cust-sidenav {
+  background-color: #3a3132;
+}
+
+.cust-body {
+  background-image: linear-gradient(
+    130deg,
+    rgba(255, 236, 157, 1) 0%,
+    rgba(242, 237, 215, 1) 52%,
+    rgba(242, 237, 215, 1) 100%
+  );
+  animation: bg-animation 6000ms linear infinite alternate;
+  background-size: 250%;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: center;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.cust-footer {
+  background-color: #f2cf30;
+}
+
+.cust-dashboard {
+  background-color: #f2cf30;
+}
+
+.nav-link .active {
+  background-color: #f2cf30;
+}
+
+.cust-body-siswa {
+  background-image: linear-gradient(
+    130deg,
+    rgba(255, 236, 157, 1) 0%,
+    rgba(242, 237, 215, 1) 52%,
+    rgba(242, 237, 215, 1) 100%
+  );
+  animation: bg-animation 6000ms linear infinite alternate;
+  background-size: 250%;
+}
+
+.cust-body-guru {
+  background-image: linear-gradient(
+    130deg,
+    rgba(255, 236, 157, 1) 0%,
+    rgba(242, 237, 215, 1) 52%,
+    rgba(242, 237, 215, 1) 100%
+  );
+  animation: bg-animation 6000ms linear infinite alternate;
+  background-size: 250%;
+}
